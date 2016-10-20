@@ -60,16 +60,16 @@ span.customSelectInner{ font-size:15px; color:#aaa; }
 .part-tab-wrap ul li a:hover, .part-tab-wrap ul li a.on{ background:#f23636; border-bottom:2px solid #f23636; color:#fff; }
 .part-tab-wrap ul li a span{ display:block; }
 .part-tab-wrap ul li a span.tabTitle{ font-size:14px; padding-top:6px; }
-.part-tab-wrap__title-wrap{ margin-top:50px; position:relative; }
+.part-tab-wrap__title-wrap{ margin-top:55px; position:relative; }
 .part-tab-wrap__title-wrap h1{ font-size:26px; color:#000; }
 .part-tab-wrap__title-wrap p{ font-size:15px; color:#333; padding-top:10px; }
 .part-tab-wrap__title-wrap .buttonWrap{ position:absolute; right:20px; top:10px; }
 .part-tab-wrap__title-wrap .buttonWrap a{ display:inline-block; margin:0 20px; }
 .part-tab-wrap__title-wrap .buttonWrap span{ width:3px; height:27px; display:inline-block; background:url('../img/sub/common/ico_blackBar.gif') left center no-repeat; vertical-align:middle; }
 
-.part-container-wrap{ margin-top:20px; }
+.part-container-wrap{ margin-top:19px; }
 .part-container-wrap ul:after{ content:''; display:block; clear:both; }
-.part-container-wrap ul li{ width:200px; height:281px; float:left; margin-left:5px; margin-top:5px; position:relative; }
+.part-container-wrap ul li{ float:left; margin-left:5px; margin-top:5px; position:relative; }
 .part-container-wrap ul li.mar-leftNone{ margin-left:0; }
-.part-container-wrap ul li a{ display:block; height:281px; }
+.part-container-wrap ul li a{ display:block; }
 .part-container-wrap ul li div{ display:none; position:absolute; left:0; top:0; }
