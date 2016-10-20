@@ -1,0 +1,19 @@
+.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}
+.prettycheckbox{display:inline-block;padding:0;margin:0}
+.prettycheckbox>a{height:30px;width:30px;display:block;float:left;cursor:pointer;margin:0;background:url('../img/sub/common/ico_checkGray.png')}
+.prettycheckbox>a:focus{outline:0 none}
+.prettycheckbox label{display:block;float:left;margin:6px 5px;cursor:pointer}
+.prettycheckbox a.disabled,.prettycheckbox label.disabled{cursor:not-allowed}
+.prettycheckbox>a{background-position:0 0}
+.prettycheckbox>a:hover{background-position:-30px 0}
+.prettycheckbox>a.checked{background-position:-60px 0}
+
+.prettycheckbox01{display:inline-block;padding:0;margin:0}
+.prettycheckbox01>a{height:30px;width:30px;display:block;float:left;cursor:pointer;margin:0;background:url('../img/sub/common/ico_checkBlue.png')}
+.prettycheckbox01>a:focus{outline:0 none}
+.prettycheckbox01 label{display:block;float:left;margin:6px 5px;cursor:pointer}
+.prettycheckbox01 a.disabled,.prettycheckbox label.disabled{cursor:not-allowed}
+.prettycheckbox01>a{background-position:0 0}
+.prettycheckbox01>a:hover{background-position:-30px 0}
+.prettycheckbox01>a.checked{background-position:-60px 0}
+

@@ -1,3 +1,54 @@
+#findIDPW-Wrap{ width:924px; padding:50px; }
+#findIDPW-Wrap h1{ font-size:26px; color:#000; margin-bottom:13px; }
+#findIDPW-Wrap p{ font-size:15px; color:#333; border-bottom:2px solid #191919; padding-bottom:19px; }
+.findIDPW-Wrap__Inner{ margin-top:120px; }
+.findIDPW-Wrap__Inner:after{ content:''; display:block; clear:both; }
+.findIDPW-Wrap__Inner__ID{ width:425px; float:left; }
+.findIDPW-Wrap__Inner__PW{ width:425px; float:left; margin-left:74px; }
+.findIDPW-Wrap__Inner h2{ font-size:18px; color:#191919; background:url('../img/sub/common/bg_titleTop.gif') left top no-repeat; padding-top:17px; }
+.findIDPW-Wrap__Inner-InputWrap{ margin:30px 0; }
+.findIDPW-Wrap__Inner-InputWrap div{ margin:10px 0; }
+.findIDPW-Wrap__Inner-InputWrap div label{ font-size:15px; color:#010101; width:58px; display:inline-block; font-weight:bold; }
+.findIDPW-Wrap__Inner-InputWrap div input[type="text"]{ width:344px; background:#f1f1f1; border:none; font-size:15px; color:#bbb; padding:15px 0 15px 20px; }
+
+#newRegistration-Wrap{ width:924px; padding:50px; }
+#newRegistration-Wrap h1{ font-size:26px; color:#000; margin-bottom:13px; }
+#newRegistration-Wrap p{ font-size:15px; color:#333; border-bottom:2px solid #191919; padding-bottom:19px; }
+.newRegistration-Wrap__Inner{ margin:20px 0; }
+.newRegistration-Wrap__Inner div{ margin-top:20px; }
+.newRegistration-Wrap__Inner div label{ font-size:15px; color:#010101; display:inline-block; font-weight:bold; }
+.newRegistration-Wrap__Inner div label.textLabel{ width:58px; }
+.newRegistration-Wrap__Inner div span.between-txt{ font-size:15px; color:#010101; margin:0 10px; font-weight:bold; }
+.newRegistration-Wrap__Inner div input[type="text"]{ background:#f1f1f1; border:none; font-size:15px; color:#bbb; padding:13px 0 12px 20px; }
+.newRegistration-Wrap__Inner div input[type="text"].type01{ width:344px; }
+.newRegistration-Wrap__Inner div input[type="text"].type02{ width:205px; }
+.newRegistration-Wrap__Inner div input[type="text"].type03{ width:91.5%; }
+.newRegistration-Wrap__Inner div select{ color:#aaa; margin-left:10px; }
+.newRegistration-Wrap__Inner div textarea{ width:94.5%; border:none; background:#f1f1f1; margin-left:3px; padding:15px 23px; }
+.newRegistration-Wrap__Inner div.prettycheckbox{ margin:0 0 10px; }
+
+/* 커스텀셀렉트박스 */
+span.customSelect { margin-left:10px; font-size:16px; background:url("../img/sub/common/btn_customSelect.gif") no-repeat scroll right center #fff; border:2px solid #ccc; color:#aaa; padding:11px 0 15px 20px; text-indent: 0; width: 20%; }
+span.customSelectOpen{ background:url("../img/sub/common/btn_customSelect-open.gif") no-repeat scroll right center #fff; }
+span.customSelectInner{ font-size:15px; color:#aaa; }
+
+#counselingInfo-Wrap{ width:924px; padding:50px; }
+#counselingInfo-Wrap h1{ font-size:26px; color:#000; margin-bottom:13px; }
+#counselingInfo-Wrap p{ font-size:15px; color:#333; border-bottom:2px solid #191919; padding-bottom:19px; }
+.counselingInfo-Wrap__Inner{ margin:20px 0; }
+.counselingInfo-Wrap__Inner div{ margin-top:20px; }
+.counselingInfo-Wrap__Inner div label{ font-size:15px; color:#010101; display:inline-block; font-weight:bold; }
+.counselingInfo-Wrap__Inner div label.textLabel{ width:110px; }
+.counselingInfo-Wrap__Inner div span.between-txt{ font-size:15px; color:#010101; margin:0 10px; font-weight:bold; }
+.counselingInfo-Wrap__Inner div span.summary{ display:block; font-size:13px; color:#999; padding-top:10px; margin-left:130px; }
+.counselingInfo-Wrap__Inner div input[type="text"],.counselingInfo-Wrap__Inner div input[type="password"]{ background:#f1f1f1; border:none; font-size:15px; color:#bbb; padding:13px 0 12px 20px; }
+.counselingInfo-Wrap__Inner div input[type="text"].type01,.counselingInfo-Wrap__Inner div input[type="password"].type01{ width:307px; }
+.counselingInfo-Wrap__Inner div input[type="text"].type02{ width:205px; }
+.counselingInfo-Wrap__Inner div input[type="text"].type03{ width:91.5%; }
+.counselingInfo-Wrap__Inner div select{ color:#aaa; margin-left:10px; }
+.counselingInfo-Wrap__Inner .buttonRightWrap{ border-top:2px solid #acacac; padding-top:20px; }
+
+
 #client_ragistration_completeWrap{ width:1024px; height:289px; background:url('../img/sub/bg_client_registration_complete.jpg') left top no-repeat; text-align:center; padding-top:479px; }
 #client_ragistration_completeWrap a{ width:213px; display:inline-block; font-size:28px; color:#fff; font-weight:bold; border:3px solid #fff; text-align:center; padding:21px 0 20px; border-radius:10px; }
 #client_ragistration_completeWrap a:first-child{ margin-right:21px; }

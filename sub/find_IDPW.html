@@ -7,23 +7,74 @@
     <meta name="viewport" content="width=1024">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <link rel="shortcut icon" type="image/x-icon" href="" />
-    <link href="css/base.css" rel="stylesheet" type="text/css"/>
-    <link href="css/common.css" rel="stylesheet" type="text/css"/>
-    <link href="css/main.css" rel="stylesheet" type="text/css"/>
-    <link href="css/sub.css" rel="stylesheet" type="text/css"/>
-    <link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
-    <script src="js/jquery.ui.datepicker-ko.js" type="text/javascript"></script>
-    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
-    <script src="js/common.js" type="text/javascript"></script>
+    <link href="../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/sub.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.ui.datepicker-ko.js" type="text/javascript"></script>
+    <script src="../js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="../js/jquery.bxslider.min.js" type="text/javascript"></script>
+    <script src="../js/common.js" type="text/javascript"></script>
     <title>노루페인트</title>
 </head>
 <body>
 <div id="wrap">
-
+    <div id="findIDPW-Wrap">
+        <h1>아이디/비밀번호 찾기</h1>
+        <p>입력하신 정보는 외부에 공개되지 않으며, 가입하신 이메일로 정보를 전달 드립니다.</p>
+        <div class="findIDPW-Wrap__Inner">
+            <div class="findIDPW-Wrap__Inner__ID">
+                <h2>아이디 찾기</h2>
+                <div class="findIDPW-Wrap__Inner-InputWrap">
+                    <div>
+                        <label>이름</label><input type="text" value="" placeholeder="이름을 입력하세요." />
+                    </div>
+                    <div>
+                        <label>이메일</label><input type="text" value="" placeholeder="이메일 주소를 입력하세요." />
+                    </div>
+                    <div>
+                        <label>휴대폰</label><input type="text" value="" placeholeder="' - ' 없이 휴대폰 번호를 입력하세요." />
+                    </div>
+                </div>
+                <!-- //findIDPW-Wrap__Inner-InputWrap -->
+                <div class="buttonWrap">
+                    <a href="javascript:;" class="btn_Gray">취소</a>
+                    <a href="javascript:;" class="btn_Blue">확인</a>
+                </div>
+                <!-- //buttonWrap -->
+            </div>
+            <!-- //findIDPW-Wrap__Inner__ID -->
+            <div class="findIDPW-Wrap__Inner__PW">
+                <h2>비밀번호 찾기</h2>
+                <div class="findIDPW-Wrap__Inner-InputWrap">
+                    <div class="findIDPW-Wrap__Inner-InputWrap">
+                        <div>
+                            <label>아이디</label><input type="text" value="" placeholeder="아이디를 입력하세요." />
+                        </div>
+                        <div>
+                            <label>이메일</label><input type="text" value="" placeholeder="이메일 주소를 입력하세요." />
+                        </div>
+                        <div>
+                            <label>휴대폰</label><input type="text" value="" placeholeder="' - ' 없이 휴대폰 번호를 입력하세요." />
+                        </div>
+                    </div>
+                </div>
+                <!-- //findIDPW-Wrap__Inner-InputWrap -->
+                <div class="buttonWrap">
+                    <a href="javascript:;" class="btn_Gray">취소</a>
+                    <a href="javascript:;" class="btn_Blue">확인</a>
+                </div>
+                <!-- //buttonWrap -->
+            </div>
+            <!-- //findIDPW-Wrap__Inner__PW -->
+        </div>
+        <!-- //findIDPW-Wrap -->
+    </div>
+    <!-- //findIDPW-Wrap -->
 </div>
 <!-- //wrap -->
 </body>

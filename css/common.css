@@ -1,3 +1,12 @@
+/* 버튼공통 */
+.buttonRightWrap{ text-align:right !important; }
+.buttonLeftWrap{ text-align:left !important; }
+.buttonCenterWrap{ text-align:center !important; }
+
+.btn_Gray{ display:inline-block; font-size:18px; color:#fff; background:#666; padding:17px 86px; margin-right:7px; }
+.btn_Gray01{ display:inline-block; font-size:16px; color:#fff; background:#acacac; padding:13px 20px; margin-left:7px; vertical-align:middle; }
+.btn_Blue{ display:inline-block; font-size:18px; color:#fff; background:#38549d; padding:17px 86px; }
+
 /* background_공통 */
 .bgNone{background:none !important;}
 
