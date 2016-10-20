@@ -1,10 +1,8 @@
 /* Part01_Img Hover */
 $(function(){
-    $('.part-container-wrap ul li').mouseenter(function() {
+    $('.part-container-wrap ul li').click(function() {
+        $('.part-container-wrap ul li').children('div').css('display','none');
         $(this).children('div').css('display','block');
-    });
-    $('.part-container-wrap ul li').mouseleave(function() {
-        $(this).children('div').css('display','none');
     });
 });
 
