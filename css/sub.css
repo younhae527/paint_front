@@ -48,7 +48,28 @@ span.customSelectInner{ font-size:15px; color:#aaa; }
 .counselingInfo-Wrap__Inner div select{ color:#aaa; margin-left:10px; }
 .counselingInfo-Wrap__Inner .buttonRightWrap{ border-top:2px solid #acacac; padding-top:20px; }
 
-
 #client_ragistration_completeWrap{ width:1024px; height:289px; background:url('../img/sub/bg_client_registration_complete.jpg') left top no-repeat; text-align:center; padding-top:479px; }
 #client_ragistration_completeWrap a{ width:213px; display:inline-block; font-size:28px; color:#fff; font-weight:bold; border:3px solid #fff; text-align:center; padding:21px 0 20px; border-radius:10px; }
 #client_ragistration_completeWrap a:first-child{ margin-right:21px; }
+
+#part-concept-Wrap{ width:1024px; height:768px; }
+.part-tab-wrap{ padding:0 50px; }
+.part-tab-wrap ul:after{ content:''; display:block; clear:both; }
+.part-tab-wrap ul li{ float:left; margin-right:10px; }
+.part-tab-wrap ul li a{ display:block; border-bottom:2px solid #acacac; font-size:19px; color:#acacac; padding:18px 20px 5px 5px; text-decoration:none; }
+.part-tab-wrap ul li a:hover, .part-tab-wrap ul li a.on{ background:#f23636; border-bottom:2px solid #f23636; color:#fff; }
+.part-tab-wrap ul li a span{ display:block; }
+.part-tab-wrap ul li a span.tabTitle{ font-size:14px; padding-top:6px; }
+.part-tab-wrap__title-wrap{ margin-top:50px; position:relative; }
+.part-tab-wrap__title-wrap h1{ font-size:26px; color:#000; }
+.part-tab-wrap__title-wrap p{ font-size:15px; color:#333; padding-top:10px; }
+.part-tab-wrap__title-wrap .buttonWrap{ position:absolute; right:20px; top:10px; }
+.part-tab-wrap__title-wrap .buttonWrap a{ display:inline-block; margin:0 20px; }
+.part-tab-wrap__title-wrap .buttonWrap span{ width:3px; height:27px; display:inline-block; background:url('../img/sub/common/ico_blackBar.gif') left center no-repeat; vertical-align:middle; }
+
+.part-container-wrap{ margin-top:20px; }
+.part-container-wrap ul:after{ content:''; display:block; clear:both; }
+.part-container-wrap ul li{ width:200px; height:281px; float:left; margin-left:5px; margin-top:5px; position:relative; }
+.part-container-wrap ul li.mar-leftNone{ margin-left:0; }
+.part-container-wrap ul li a{ display:block; height:281px; }
+.part-container-wrap ul li div{ display:none; position:absolute; left:0; top:0; }
