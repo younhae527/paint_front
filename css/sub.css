@@ -88,6 +88,31 @@ span.customSelectInner{ font-size:15px; color:#aaa; }
 .part-container-wrap ul.part-container-wrap__conceptResult li a{ display:inline-block; margin-top:10px; }
 .part-container-wrap ul.part-container-wrap__conceptResult li div.non-select{ display:block; position:absolute; left:0; top:0; }
 
+ul.colorSelectConfirm-Inner{ margin:0 50px; }
+.colorPicker-wrap{ position:relative; }
+.colorPicker-Inner01{ margin-bottom:3px; }
+.colorPicker-Inner span{ width:163px; display:inline-block; font-size:14px; font-weight:bold; color:#333; padding:18px 0 18px 23px; vertical-align:middle; }
+.colorPicker-Inner span.colorPicker01{ background:rgb(193,176,167) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.colorPicker-Inner span.colorPicker02{ background:rgb(229,218,209) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.colorPicker-Inner span.colorPicker03{ background:rgb(114,136,156) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.colorPicker-Inner span.colorPicker04{ background:rgb(174,188,197) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.colorPicker-Inner span.colorPicker05{ background:rgb(149,145,139) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.colorPicker-Inner span.colorPicker06{ background:rgb(223,220,216) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+a.btnUp{ position:absolute; right:0; top:0; }
+a.btnDown{ position:absolute; right:0; bottom:0; }
+.part-container-wrap .buttonRightWrap{ margin:27px 50px 0 0; }
+
+.paintingColorSelectWrap{ margin:0 50px; }
+.paintingColorSelectWrap:after{ content:''; display:block; clear:both; }
+ul.paintingColorSelectWrap__tabBtn{ float:left; }
+ul.paintingColorSelectWrap__tabBtn li{ float:none; margin-left:0; }
+ul.paintingColorSelectWrap__tabBtn li a{ display:block; font-size:16px; color:#fff; text-align:center; background:#acacac; padding:15px 46px; }
+ul.paintingColorSelectWrap__tabBtn li a.on, ul.paintingColorSelectWrap__tabBtn li a:hover{ background:#f23636; }
+.paintingColorSelectWrap__slideImg{ float:left; position:relative; }
+a.btn_part05_slidePrev{ display:block; position:absolute; left:5px;; top:205px; }
+a.btn_part05_slideNext{ display:block; position:absolute; right:0; top:205px; }
+
+/* 레이어팝업 */
 #layerSpecific{ display:none; width:824px; height:568px; background:#fff; position:absolute; left:50%; top:50%; z-index:10; padding:50px 50px 40px 50px; margin:-329px 0 0 -462px; }
 .layerSpecific-Inner{ position:relative; }
 .layerSpecific-Inner h1{ font-size:30px; color:#000; text-align:center; background:url('../img/sub/common/bg_titleBottom.gif') center bottom no-repeat; padding-bottom:20px; margin-bottom:20px; }
@@ -98,4 +123,43 @@ span.customSelectInner{ font-size:15px; color:#aaa; }
 .layerSpecific-Inner ul li.first{ margin-left:0; }
 .layerSpecific-Inner .buttonRightWrap{ margin-top:27px; }
 .layerSpecific-Inner a{ margin-right:5px; text-decoration:none; }
-.btn-popupClose{ position:absolute; right:-20px; top:-30px; }
+#layerSpecific .btn-popupClose{ position:absolute; right:-20px; top:-30px; }
+
+#layerInputFloorPlanFile{ display:none; width:544px; height:214px; background:#fff; position:absolute; left:50%; top:50%; z-index:10; padding:30px 43px 34px 25px; margin:-139px 0 0 -306px; }
+.layerInputFloorPlanFile-Inner{ position:relative; }
+.layerInputFloorPlanFile-Inner h1{ font-size:22px; color:#000; text-align:center; padding-bottom:20px; margin-bottom:20px; }
+.layerInputFloorPlanFile-inputWrap{ margin-bottom:25px; }
+.layerInputFloorPlanFile-inputWrap input[type="text"]{ width:420px; height:13px; background:#f1f1f1; border:none; padding:15px 0 16px 21px; font-size:15px; color:#bbb; }
+.layerInputFloorPlanFile-inputWrap a{ display:inline-block; background:#acacac; font-size:14px; color:#fff; padding:14px 25px; vertical-align:middle; text-decoration:none; }
+.layerInputFloorPlanFile-inputWrap span{ font-size:13px; color:#bbb; margin:10px 0 0 11px; display:block; }
+#layerInputFloorPlanFile .btn-popupClose{ position:absolute; right:-23px; top:-10px; }
+
+#pantoneColorPalette{ display:none; width:907px; height:427px; background:#fff; position:absolute; left:50%; top:50%; z-index:10; margin:-214px 0 0 -436px; }
+.pantoneColorPalette-Inner{ position:relative; }
+.pantoneColorPalette-Inner h1{ font-size:14px; color:#fff; background:#94417b; text-align:center; padding:27px 0 26px; }
+#pantoneColorPalette .btn-popupCloseW{ position:absolute; right:17px; top:19px; }
+.colorPaletteWrap{ position:relative;height:358px; }
+.colorPaletteInner{ width:850px; line-height:358px; text-align:center; }
+a.btn_colorPaletteArrowUp{ position:absolute; right:0; top:0; }
+a.btn_colorPaletteArrowDown{ position:absolute; right:0; bottom:0; }
+
+#paintingColorSelectWrap{ display:block; width:824px; height:528px; background:#fff; position:absolute; padding:50px; left:50%; top:50%; z-index:10; margin:-314px 0 0 -462px; }
+#paintingColorSelectWrap .btn-popupClose{ position:absolute; right:20px; top:20px; }
+.paintingColorSelectWrap__Inner{ position:relative; }
+.paintingColorSelectWrap__Inner h1{ font-size:26px; color:#000; text-align:left; padding-bottom:13px; }
+.paintingColorSelectWrap__Inner p.concept-explain{ font-size:14px; color:#666; font-weight:bold; }
+.paintingColorSelectWrap__Inner__BoxWrap{ margin-top:32px; }
+.paintingColorSelectWrap__Inner__BoxWrap:after{ content:''; display:block; clear:both; }
+.paintingColorSelectWrap__Inner__ImgBox{ float:left; }
+.paintingColorSelectWrap__Inner__ContentBox{ float:left; margin-left:10px; }
+.paintingColorSelectWrap__Inner__ContentBox__colorPicker{ margin-bottom:10px; }
+.paintingColorSelectWrap__Inner__ContentBox__colorPicker span{ width:244px; display:inline-block; font-size:14px; font-weight:bold; color:#333; padding:18px 0 18px 23px; vertical-align:middle; }
+.paintingColorSelectWrap__Inner__ContentBox__colorPicker span.colorPicker01{ background:rgb(193,176,167) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.paintingColorSelectWrap__Inner__ContentBox__colorPicker span.colorPicker02{ background:rgb(229,218,209) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.paintingColorPalette-title{ background:#94417b; font-size:14px; color:#fff; font-weight:bold; padding:26px 0; text-align:center; position:relative; }
+.btn_part05_more{ position:absolute; right:16px; top:21px; }
+.paintingColorPalette-content{ border:2px solid #ccc; border-top:none; height:254px; position:relative; }
+.paintingColorPalette-content:after{ content:''; display:block; clear:both; }
+.paintingColorPalette{ text-align:center; }
+a.btn_part05_ArrowUp{ display:block; position:absolute; right:0; top:0; }
+a.btn_part05_ArrowDown{ display:block; position:absolute; right:0; bottom:0; }

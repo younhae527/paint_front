@@ -7,12 +7,25 @@ $(function(){
 });
 
 $(function(){
-    $('.part-container-wrap__conceptResult .popOpen-btn').click(function() {
+    $('.part-container-wrap .popOpen-btn').click(function() {
         $('#layerSpecific').css('display','block');
         $('#dim').css('display','block');
     });
-    $('#layerSpecific .btn-popupClose').click(function() {
+    $('.part-container-wrap .sendEmail').click(function() {
+        $('#layerInputFloorPlanFile').css('display','block');
+        $('#dim').css('display','block');
+    });
+    $('.part-container-wrap .btn_change').click(function() {
+        $('#pantoneColorPalette').css('display','block');
+        $('#dim').css('display','block');
+    });
+    $('.btn-popupClose').click(function() {
         $('#layerSpecific').css('display','none');
+        $('#layerInputFloorPlanFile').css('display','none');
+        $('#dim').css('display','none');
+    });
+    $('.btn-popupCloseW').click(function() {
+        $('#pantoneColorPalette').css('display','none');
         $('#dim').css('display','none');
     });
 });
