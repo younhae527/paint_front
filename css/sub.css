@@ -71,8 +71,8 @@ span.customSelectInner{ font-size:15px; color:#aaa; }
 .part-container-wrap ul:after{ content:''; display:block; clear:both; }
 .part-container-wrap ul li{ float:left; margin-left:5px; margin-top:5px; position:relative; }
 .part-container-wrap ul li.mar-leftNone{ margin-left:0; }
-.part-container-wrap ul li a{ display:inline-block; }
-.part-container-wrap ul li div{ display:none; position:absolute; left:0; top:0; }
+.part-container-wrap ul li a{ display:inline-block; text-decoration:none; }
+.part-container-wrap ul li div.check-hover{ display:none; position:absolute; left:0; top:0; }
 
 .part-container-wrap__sumnailImg-wrap{ margin-top:15px; position:relative; }
 .part-container-wrap__sumnailImg-wrap ul{ margin:0 76px; }
@@ -86,4 +86,16 @@ span.customSelectInner{ font-size:15px; color:#aaa; }
 .part-container-wrap ul.part-container-wrap__conceptResult li h2{ padding:30px 0 20px; text-align:center; background:url('../img/sub/common/bg_titleBottom.gif') center bottom no-repeat; font-size:28px; color:#333; }
 .part-container-wrap ul.part-container-wrap__conceptResult li p{ height:130px; padding:18px 18px 0 18px; font-size:14px; color:#333; line-height:22px; text-align:left; }
 .part-container-wrap ul.part-container-wrap__conceptResult li a{ display:inline-block; margin-top:10px; }
-.part-container-wrap ul.part-container-wrap__conceptResult li div{ display:block; }
+.part-container-wrap ul.part-container-wrap__conceptResult li div.non-select{ display:block; position:absolute; left:0; top:0; }
+
+#layerSpecific{ display:none; width:824px; height:568px; background:#fff; position:absolute; left:50%; top:50%; z-index:10; padding:50px 50px 40px 50px; margin:-329px 0 0 -462px; }
+.layerSpecific-Inner{ position:relative; }
+.layerSpecific-Inner h1{ font-size:30px; color:#000; text-align:center; background:url('../img/sub/common/bg_titleBottom.gif') center bottom no-repeat; padding-bottom:20px; margin-bottom:20px; }
+.layerSpecific-Inner h2{ font-size:20px; color:#000; text-align:left; margin-top:35px; }
+.layerSpecific-Inner p.concept-explain{ font-size:14px; color:#666; line-height:20px; font-weight:bold; margin-top:13px; padding-bottom:20px; border-bottom:2px solid #000; }
+.layerSpecific-Inner ul:after{ content:''; display:block; clear:both; }
+.layerSpecific-Inner ul li{ float:left; margin-left:6px; }
+.layerSpecific-Inner ul li.first{ margin-left:0; }
+.layerSpecific-Inner .buttonRightWrap{ margin-top:27px; }
+.layerSpecific-Inner a{ margin-right:5px; text-decoration:none; }
+.btn-popupClose{ position:absolute; right:-20px; top:-30px; }
