@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="viewport" content="width=1024">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <link rel="shortcut icon" type="image/x-icon" href="" />
+    <link href="../css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/sub.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/prettyCheckable.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="../js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="../js/prettyCheckable.js" type="text/javascript"></script>
+    <script src="../js/jquery.customSelect.js" type="text/javascript"></script>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <title>노루페인트</title>
+</head>
+<body>
+<div id="wrap">
+    <div id="part-concept-Wrap">
+        <div class="part-tab-wrap">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <span>01</span>
+                        <span class="tabTitle">이미지 유형 선택</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>02</span>
+                        <span class="tabTitle">선호 이미지 선택</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="on">
+                        <span>03</span>
+                        <span class="tabTitle">맞춤 컬러 컨셉 결과</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>04</span>
+                        <span class="tabTitle">공간별 페인팅 면수 선택</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>05</span>
+                        <span class="tabTitle">공간별 페인팅 컬러 선택</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span>06</span>
+                        <span class="tabTitle">컬러 선택 확인</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="part-tab-wrap__title-wrap">
+                <h1>맞춤 컬러 컨셉 결과</h1>
+                <p>선호 이미지  분석 결과 고객님께 맞는 컬러 컨셉은 #3(네이밍)과 #4(네이밍) 입니다</p>
+                <div class="buttonWrap">
+                    <a href="javascript:;"><img src="../img/sub/btn_Prev.gif" alt="이전 슬라이드로 이동" /></a>
+                    <span></span>
+                    <a href="javascript:;"><img src="../img/sub/btn_Next.gif" alt="다음 슬라이드로 이동" /></a>
+                </div>
+                <!-- //buttonWrap -->
+            </div>
+            <!-- //part-tab-wrap__title-wrap -->
+        </div>
+        <!-- //part-tab-wrap -->
+        <div class="part-container-wrap">
+            <ul class="part-container-wrap__conceptResult">
+                <li class="mar-leftNone">
+                    <img src="../img/sub/part03_img01.gif" alt="" />
+                    <h2>CLASSIC</h2>
+                    <p>시대를 초월한 가치와 보편성을 갖는 고전적 혹은 전통적이라는 의미의 클래식은 유행에 크게 좌우되지 않는 편이지만 다소의 기복은 무시할 수 없다.</p>
+                    <a href="javascript:;" class="btn_Gray02">자세히보기</a>
+                    <div><img src="../img/sub/part03_nonSelectImg.png" alt="" /></div>
+                </li>
+                <li>
+                    <img src="../img/sub/part03_img02.gif" alt="" />
+                    <h2>NATURAL</h2>
+                    <p>자연 분배. 모발의 자연 성장 패턴과 관련한 HAIR가 난 방향 자연스러운 상태. 옷감에서는 표백하지 않은 상태와 색의 올을 가리킨다.</p>
+                    <a href="javascript:;" class="btn_Gray02">자세히보기</a>
+                    <div><img src="../img/sub/part03_nonSelectImg.png" alt="" /></div>
+                </li>
+                <li>
+                    <img src="../img/sub/part03_img03.gif" alt="" />
+                    <h2>UNIQUE</h2>
+                    <p>유례가 없는 독창성이 풍부한 디자인을 말한다. 대부분의 경우 그 독창성을 좋은 평가의 뜻으로 쓰인다.</p>
+                    <a href="javascript:;" class="btn_Blue01">자세히보기</a>
+                </li>
+                <li>
+                    <img src="../img/sub/part03_img04.gif" alt="" />
+                    <h2>CHIC</h2>
+                    <p>절제된 단순미와 부드럽고 도시적인 지성미를 느끼게 하는 이미지. 조화, 차분, 고상, 도시, 성숙의 이미지이다.</p>
+                    <a href="javascript:;" class="btn_Blue01">자세히보기</a>
+                </li>
+                <li>
+                    <img src="../img/sub/part03_img05.gif" alt="" />
+                    <h2>ROMANTIC</h2>
+                    <p>부드럽고 사랑스러운 이미지. 색조는 연한(PALE)톤, 밝은(LIGHT)톤, 밝은 회색(LIGHT GRAYSHI) 톤 등으로 밝고 가벼우며 부드럽게 표현한다.</p>
+                    <a href="javascript:;" class="btn_Gray02">자세히보기</a>
+                    <div><img src="../img/sub/part03_nonSelectImg.png" alt="" /></div>
+                </li>
+            </ul>
+
+        </div>
+        <!-- //part-concept-Wrap -->
+    </div>
+    <!-- //part-concept-Wrap -->
+</div>
+<!-- //wrap -->
+</body>
+</html>
