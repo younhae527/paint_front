@@ -111,12 +111,22 @@ a.btnDown{ position:absolute; right:0; bottom:0; }
 .part04-container-Inner:after{ content:''; display:block; clear:both; }
 .part04-container-Inner__ImgBox{ width:612px; border:2px solid #ccc; float:left; }
 .part04-container-inner__contentBox{ width:298px; margin-left:10px; float:left; }
-.part04-container-inner__contentBox .buttonWrap{ margin-top:30px; }
-.part04-container-inner__contentBox .buttonWrap a{ text-decoration:none; }
-.part04-container-inner__contentBox .buttonWrap .btn_Gray01{ margin-left:0; margin-right:7px; }
-.part04-container-inner__contentBox__takeAreaWrap{}
-.part04-container-inner__contentBox__takeArea-title span{ display:inline-block; font-size:16px; color:#fff; font-weight:bold; text-align:center; }
-.part04-container-inner__contentBox__takeArea-title span
+.part04-container-inner__contentBox .buttonCenterWrap{ margin-top:30px; }
+.part04-container-inner__contentBox .buttonCenterWrap a{ text-decoration:none; }
+.part04-container-inner__contentBox .buttonCenterWrap .btn_Gray01{ margin-left:0; margin-right:7px; }
+.part04-container-inner__contentBox__takeAreaWrap{ height:440px; }
+.part04-container-inner__contentBox__takeArea-title{ margin-bottom:2px; }
+.part04-container-inner__contentBox__takeArea-title span{ display:inline-block; font-size:16px; color:#fff; font-weight:bold; text-align:center; padding:14px 0; }
+.part04-container-inner__contentBox__takeArea-title span.part04-container-inner__contentBox__takeArea-title-left{ width:110px; background:#acacac; }
+.part04-container-inner__contentBox__takeArea-title span.part04-container-inner__contentBox__takeArea-title-right{ width:188px; background:#858585; }
+.part04-container-inner__contentBox__takeArea-content{ margin-bottom:2px; }
+.part04-container-inner__contentBox__takeArea-content:after{ content:''; display:block; clear:both; }
+.part04-container-inner__contentBox__takeArea-content-title{ float:left; width:110px; background:#acacac; font-size:16px; color:#fff; font-weight:bold; text-align:center; padding:10px 0; }
+.part04-container-inner__contentBox__takeArea-content-numbering{ background:#eee; text-align:left; float:left; padding-left:20px; }
+.part04-container-inner__contentBox__takeArea-content-numbering span{ font-size:16px; color:#666; padding:0 20px; }
+.part04-delButton{ padding-left:24px; display:inline-block; }
+.part04-container-inner__contentBox__takeArea-addArea{ border:2px solid #ccc; padding:13px 0 13px 20px; font-size:16px; color:#aaa; position:relative; }
+.part04-container-inner__contentBox__takeArea-addArea .btn-add{ position:absolute; right:10px; top:10px; display:block;  }
 
 .paintingColorSelectWrap{ margin:0 50px; }
 .paintingColorSelectWrap:after{ content:''; display:block; clear:both; }
