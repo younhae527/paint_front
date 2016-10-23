@@ -125,7 +125,7 @@ ul.paintingColorSelectWrap__tabBtn li{ float:none; margin-left:0; }
 ul.paintingColorSelectWrap__tabBtn li a{ display:block; font-size:16px; color:#fff; text-align:center; background:#acacac; padding:15px 46px; }
 ul.paintingColorSelectWrap__tabBtn li a.on, ul.paintingColorSelectWrap__tabBtn li a:hover{ background:#f23636; }
 .paintingColorSelectWrap__slideImg{ float:left; position:relative; width:794px; overflow:hidden; }
-.paintingColorSelectWrap__slideImg ul{ width:10000px; }
+.paintingColorSelectWrap__slideImg ul{ width:10000px; position: relative;}
 .paintingColorSelectWrap__slideImg ul:last-child{ margin-right:0; }
 a.btn_part05_slidePrev{ display:block; position:absolute; left:0; top:205px; }
 a.btn_part05_slideNext{ display:block; position:absolute; right:0; top:205px; }

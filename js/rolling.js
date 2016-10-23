@@ -1,6 +1,7 @@
 function Rolling( opt ){
     var ele = opt.ele;
     var btn = opt.btn;
+    var defaultListCount = opt.defaultListCount;
     var item = ele.find(">li");
     var totalCnt = item.length;
     var dx = item.outerWidth(true);
@@ -18,7 +19,7 @@ function Rolling( opt ){
         if( !moveFalg ) {
             moveFalg = 1;
 
-            if( cnt >= totalCnt-5 ){
+            if( cnt >= totalCnt-defaultListCount ){
                 moveFalg = 0;
                 return;
             }

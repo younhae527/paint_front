@@ -19,6 +19,7 @@
     <script src="../js/prettyCheckable.js" type="text/javascript"></script>
     <script src="../js/jquery.customSelect.js" type="text/javascript"></script>
     <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/rolling.js" type="text/javascript"></script>
     <title>노루페인트</title>
 </head>
 <body>
@@ -86,13 +87,15 @@
                     <li><a href="javascript:;">방 5</a></li>
                 </ul>
                 <div class="paintingColorSelectWrap__slideImg">
-                    <ul class="paintingColorSelectWrap__slideImg">
+                    <ul class="paintingColorSelectWrap__slideImg__items">
                         <li><a href="javascript:;"><img src="../img/sub/part05_img01.gif" alt="" /></a></li>
                         <li><a href="javascript:;"><img src="../img/sub/part05_img02.gif" alt="" /></a></li>
                         <li><a href="javascript:;"><img src="../img/sub/part05_img03.gif" alt="" /></a></li>
+                        <li><a href="javascript:;"><img src="../img/sub/part05_img01.gif" alt="" /></a></li>
+                        <li><a href="javascript:;"><img src="../img/sub/part05_img02.gif" alt="" /></a></li>
                     </ul>
-                    <a href="javascript:;" class="btn_part05_slidePrev"><img src="../img/sub/btn_part05_Prev.png" alt="" /></a>
-                    <a href="javascript:;" class="btn_part05_slideNext"><img src="../img/sub/btn_part05_Next.png" alt="" /></a>
+                    <a href="javascript:;" class="btn_part05_slidePrev btn_part05__roll-btn"><img src="../img/sub/btn_part05_Prev.png" alt="" /></a>
+                    <a href="javascript:;" class="btn_part05_slideNext btn_part05__roll-btn"><img src="../img/sub/btn_part05_Next.png" alt="" /></a>
                 </div>
                 <!-- //paintingColorSelectWrap__slideImg -->
             </div>
@@ -150,6 +153,14 @@
     <!-- //paintingColorSelectWrap -->
     <div id="dim"></div>
 </div>
+
+<script>
+    var rolling = new Rolling({
+        ele : $(".paintingColorSelectWrap__slideImg__items"),
+        btn : $(".btn_part05__roll-btn"),
+        defaultListCount : 3
+    });
+</script>
 <!-- //wrap -->
 </body>
 </html>
