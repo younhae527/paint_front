@@ -37,6 +37,7 @@ $(document).ready(function(){
 
 /* Pretty Checkable */
 $(document).ready(function(){
+    if( $('input.prettyCheckable01').length == 0  ) return;
     $('input.prettyCheckable01').prettyCheckable({
 
     });
