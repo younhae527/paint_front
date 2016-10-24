@@ -261,3 +261,10 @@ a.btn_colorPaletteArrowDown{ position:absolute; right:0; bottom:0; }
 .paintingColorPalette span.colorPaletteInner_colorCheep04{ background:rgb(241, 229, 190); }
 a.btn_part05_ArrowUp{ display:block; position:absolute; right:0; top:0; }
 a.btn_part05_ArrowDown{ display:block; position:absolute; right:0; bottom:0; }
+
+#areaPictureWrap{ display:none; width:583px; height:1021px; background:#fff; position:absolute; padding:50px; left:50%; top:50%; z-index:15; margin:-314px 0 0 -462px; }
+#areaPictureWrap .btn-popupClose{ position:absolute; right:20px; top:20px; }
+#areaPictureWrap h1{ font-size:26px; color:#000; text-align:center; padding-bottom:13px; }
+.areaPictureWrap__Inner{ height:943px; margin-top:34px; overflow-y:auto; }
+.areaPictureWrap__Inner-img01{ text-align:center; }
+.areaPictureWrap__Inner-img02, .areaPictureWrap__Inner-img03{ text-align:center; margin-top:20px; }
