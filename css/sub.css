@@ -128,10 +128,15 @@ a.btnDown{ position:absolute; right:0; bottom:0; }
 .part04-container-inner__contentBox__takeArea-addArea{ border:2px solid #ccc; padding:13px 0 13px 20px; font-size:16px; color:#aaa; position:relative; }
 .part04-container-inner__contentBox__takeArea-addArea .btn-add{ position:absolute; right:10px; top:10px; display:block;  }
 
-.part04-container-Inner__ImgBox-slide{ width:612px; float:left; }
-.part04-container-Inner__ImgBox-slide-BigImg{ width:612px; border:2px solid #ccc; margin-bottom:9px; }
+.part04-container-Inner__ImgBox-slide{ width:616px; float:left; }
+.part04-container-Inner__ImgBox-slide-BigImg{ width:612px; border:2px solid #ccc; margin-bottom:9px; position:relative; }
+.part04-container-Inner__ImgBox-slide-BigImg select{ position:absolute; right:-2px; top:-2px; z-index:10; color:#aaa; }
 .part04-container-Inner__ImgBox-slide-SumnailImg:after{ content:''; display:block; clear:both; }
-.part04-container-Inner__ImgBox-slide-SumnailImg li{ border:2px solid #ccc; }
+.part-container-wrap  .part04-container-Inner__ImgBox-slide-SumnailImg li{ border:2px solid #ccc; float:left; margin-right:3px; }
+.part-container-wrap  .part04-container-Inner__ImgBox-slide-SumnailImg li:last-child{ margin-right:0; }
+
+span.customSelect01 { position:absolute; right:-2px; top:-2px; margin-left:10px; font-size:16px; background:url("../img/sub/common/btn_customSelect.gif") no-repeat scroll right center #fff; border:2px solid #ccc; color:#aaa; padding:11px 0 15px 20px; text-indent: 0; width: 20%; }
+
 
 .paintingColorSelectWrap{ margin:0 50px; }
 .paintingColorSelectWrap:after{ content:''; display:block; clear:both; }

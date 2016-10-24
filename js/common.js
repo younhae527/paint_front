@@ -33,6 +33,7 @@ $(function(){
 /* 커스텀셀렉트박스 */
 $(document).ready(function(){
     $('.customSelect').customSelect();
+    $('.customSelect01').customSelect();
 });
 
 /* Pretty Checkable */
