@@ -23,50 +23,275 @@
 </head>
 <body>
 <div id="wrap">
-    <div id="newRegistration-Wrap">
-        <h1>상담고객 신규 등록</h1>
-        <p>보다 편리하고 빠른 상담을 위해 고객님의 정보를 등록하세요.</p>
-        <div class="newRegistration-Wrap__Inner">
-            <div>
-                <label class="textLabel">이름</label><input class="type01" type="text" value="" placeholder="이름을 입력하세요." />
-            </div>
-            <div>
-                <label class="textLabel">휴대폰</label><input class="type01" type="text" value="" placeholder="' - ' 없이 번호를 입력하세요." />
-            </div>
-            <div>
-                <label class="textLabel">이메일</label><input class="type01" type="text" value="" placeholder="이메일 주소를 입력하세요." /> <span class="between-txt">@</span> <input class="type02" type="text" value="" placeholder="dreamwiz.com" />
-                <select class="customSelect">
-                    <option>선택</option>
-                    <option>dreamwiz.com</option>
-                    <option>hanmail.net</option>
-                    <option>korea.com</option>
-                    <option>kornet.net</option>
-                    <option>nate.com</option>
-                    <option>naver.com</option>
-                    <option>gmail.com</option>
-                    <option>직접입력</option>
+    <div id="counselingList-Wrap">
+        <div class="counselingList-title">
+            <h1>고객 상담 리스트</h1>
+            <div class="counselingList-SearchBox">
+                <span class="input-Title">상담기간</span> <input type="text" value="" style="width:100px;" /> <span>~</span> <input type="text" value="" style="width:100px;" />
+                <span class="input-Title">검색어</span> <input type="text" value="" placeholder="검색어를 입력하세요." /><a href="javascript:;" class="searchBtn">검색</a>
+                <select class="customSelect02">
+                    <option>전체</option>
+                    <option>접수</option>
+                    <option>진행</option>
+                    <option>계약</option>
+                    <option>보류</option>
+                    <option>롼료</option>
                 </select>
             </div>
-            <div>
-                <label class="textLabel">주소</label><input class="type03" type="text" value="" placeholder="주소 정보를 입력하세요." />
-            </div>
-            <div>
-                <input type="checkbox" class="prettyCheckable01" value="" id="check01" name="check01"/> <label for="check01">개인 정보 수집 및 이용목적 (필수)</label>
-                <textarea rows="3" placeholder="관련 내용 정보 확인 필요"></textarea>
-            </div>
-            <div>
-                <input type="checkbox" class="prettyCheckable02" value="" id="check02" name="check02"/> <label for="check02">개인정보의 보유 및 폐기 (필수)</label>
-                <textarea rows="3" placeholder="관련 내용 정보 확인 필요"></textarea>
-            </div>
-            <div class="buttonRightWrap">
-                <a href="javascript:;" class="btn_Gray">취소</a>
-                <a href="javascript:;" class="btn_Blue">확인</a>
-            </div>
-            <!-- //newRegistration-Wrap__Inner -->
+            <!-- //counselingList-SearchBox -->
         </div>
-        <!-- //newRegistration-Wrap__Inner -->
+        <!-- //counselingList-title -->
+        <div class="counselingList-table">
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <colgroup>
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                    <col width="" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>순서</th>
+                        <th>고객명</th>
+                        <th>휴대폰번호</th>
+                        <th>이메일</th>
+                        <th>주소</th>
+                        <th>상담내역</th>
+                        <th>공간사진</th>
+                        <th>등록일</th>
+                        <th>상태</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="bg-Gray">
+                        <td>2</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="bg-Gray">
+                        <td>2</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="bg-Gray">
+                        <td>2</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="bg-Gray">
+                        <td>2</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="bg-Gray">
+                        <td>2</td>
+                        <td>홍길동</td>
+                        <td>010-1234-5678</td>
+                        <td>test@test.com</td>
+                        <td>서울시 00구 00동  00아파트 00동 0000호</td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td><a href="javascript:;">보기</a></td>
+                        <td>2016.08.22</td>
+                        <td>
+                            <select class="customSelect02">
+                                <option>전체</option>
+                                <option>접수</option>
+                                <option>진행</option>
+                                <option>계약</option>
+                                <option>보류</option>
+                                <option>롼료</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- //counselingList-Wrap -->
+        <div class="counselingList-pager">
+            <a href="javascript:;"><img src="../img/sub/counselingList-pager-first.gif" alt="" /></a>
+            <a href="javascript:;"><img src="../img/sub/counselingList-pager-prev.gif" alt="" /></a>
+            <a href="javascript:;">1</a>
+            <a href="javascript:;">2</a>
+            <a href="javascript:;">3</a>
+            <a href="javascript:;">4</a>
+            <a href="javascript:;">5</a>
+            <a href="javascript:;">6</a>
+            <a href="javascript:;">7</a>
+            <a href="javascript:;">8</a>
+            <a href="javascript:;">9</a>
+            <a href="javascript:;">10</a>
+            <a href="javascript:;"><img src="../img/sub/counselingList-pager-next.gif" alt="" /></a>
+            <a href="javascript:;"><img src="../img/sub/counselingList-pager-last.gif" alt="" /></a>
+            <a href="javascript:;" class="counselingList-button">고객 정보 등록</a>
+        </div>
+        <!-- //counselingList-pager -->
     </div>
-    <!-- //newRegistration-Wrap -->
+    <!-- //counselingList-Wrap -->
 </div>
 <!-- //wrap -->
 </body>
