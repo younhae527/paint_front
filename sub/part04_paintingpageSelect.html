@@ -149,12 +149,12 @@
 
 
 
-                        <div class="part04-container-inner__contentBox__takeArea-addArea">
+                        <div class="part04-container-inner__contentBox__takeArea-addArea btn-add1">
                             공간추가
                             <a href="javascript:;" class="btn-add"><img src="../img/sub/common/btn_more.png" alt="" /></a>
                         </div>
 
-                        <div class="addSell-component1">
+                        <div class="addSell-component1" style="display: none;">
                             <div data-room="안방"><a href="javascript:;">안방</a></div>
                             <div data-room="자녀방"><a href="javascript:;">자녀방</a></div>
                             <div data-room="주방"><a href="javascript:;">주방</a></div>
@@ -271,12 +271,12 @@
                         </div>
 
 
-                        <div class="part04-container-inner__contentBox__takeArea-addArea">
+                        <div class="part04-container-inner__contentBox__takeArea-addArea btn-add2">
                             공간추가
                             <a href="javascript:;" class="btn-add"><img src="../img/sub/common/btn_more.png" alt="" /></a>
                         </div>
                         <!-- //part04-container-inner__contentBox__takeArea-addArea -->
-                        <div class="addSell-component2">
+                        <div class="addSell-component2" style="display: none;">
                             <div data-room="안방"><a href="javascript:;">안방</a></div>
                             <div data-room="자녀방"><a href="javascript:;">자녀방</a></div>
                             <div data-room="주방"><a href="javascript:;">주방</a></div>
@@ -363,14 +363,16 @@
         wraper : $('.part04-container-inner-wraper'),
         itme : ".part04-container-inner__contentBox__takeArea-content",
         delectBtn : ".part04-delButton",
-        additemList : $('.addSell-component1')
+        additemList : $('.addSell-component1'),
+        addBtn : $('.btn-add1')
     });
 
     var sellAdd1 = new SellAdd({
         wraper : $('.part04-container-inner-wraper2'),
         itme : ".part04-container-inner__contentBox__takeArea-content",
         delectBtn : ".part04-delButton",
-        additemList : $('.addSell-component2')
+        additemList : $('.addSell-component2'),
+        addBtn : $('.btn-add2')
     });
 </script>
 </body>
