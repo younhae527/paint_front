@@ -134,6 +134,7 @@ a.btnDown{ position:absolute; right:0; bottom:0; }
 .part04-container-Inner__ImgBox-slide-SumnailImg:after{ content:''; display:block; clear:both; }
 .part-container-wrap  .part04-container-Inner__ImgBox-slide-SumnailImg li{ border:2px solid #ccc; float:left; margin-right:3px; }
 .part-container-wrap  .part04-container-Inner__ImgBox-slide-SumnailImg li:last-child{ margin-right:0; }
+.part04-container-Inner__ImgBox-slide-SumnailImg .check-hover{ display:none; }
 
 span.customSelect01 { position:absolute; right:-2px; top:-2px; margin-left:10px; font-size:16px; background:url("../img/sub/common/btn_customSelect.gif") no-repeat scroll right center #fff; border:2px solid #ccc; color:#aaa; padding:11px 0 15px 20px; text-indent: 0; width: 20%; }
 
@@ -186,12 +187,36 @@ a.btn_part05_slideNext{ display:block; position:absolute; right:0; top:205px; }
 .pantoneColorPalette-Inner h1{ font-size:14px; color:#fff; background:#94417b; text-align:center; padding:27px 0 26px; }
 #pantoneColorPalette .btn-popupCloseW{ position:absolute; right:17px; top:19px; }
 .colorPaletteWrap{ position:relative;height:358px; }
-.colorPaletteInner{ width:850px; line-height:358px; text-align:center; }
+.colorPaletteInner{ width:850px; }
+.colorPaletteInner span{ width:16px; height:16px; display:inline-block; margin:1px 0 0 1px; }
+.colorPaletteInner span.colorPaletteInner_colorCheep01{ background:rgb(239, 236, 234); }
+.colorPaletteInner span.colorPaletteInner_colorCheep02{ background:rgb(240, 237, 225); }
+.colorPaletteInner span.colorPaletteInner_colorCheep03{ background:rgb(239, 239, 223); }
+.colorPaletteInner span.colorPaletteInner_colorCheep04{ background:rgb(241, 229, 190); }
 a.btn_colorPaletteArrowUp{ position:absolute; right:0; top:0; }
 a.btn_colorPaletteArrowDown{ position:absolute; right:0; bottom:0; }
 
-#paintingColorSelectWrap{ display:none; width:824px; height:528px; background:#fff; position:absolute; padding:50px; left:50%; top:50%; z-index:10; margin:-314px 0 0 -462px; }
-#paintingColorSelectWrap .btn-popupClose{ position:absolute; right:20px; top:20px; }
+#paintingColorSelectWrap-type01{ display:none; width:824px; height:528px; background:#fff; position:absolute; padding:50px; left:50%; top:50%; z-index:15; margin:-314px 0 0 -462px; }
+#paintingColorSelectWrap-type01 .btn-popupClose{ position:absolute; right:20px; top:20px; }
+.paintingColorSelectWrap__Inner{ position:relative; }
+.paintingColorSelectWrap__Inner h1{ font-size:26px; color:#000; text-align:left; padding-bottom:13px; }
+.paintingColorSelectWrap__Inner p.concept-explain{ font-size:14px; color:#666; font-weight:bold; }
+.paintingColorSelectWrap__Inner__BoxWrap{ margin-top:32px; }
+.paintingColorSelectWrap__Inner__BoxWrap:after{ content:''; display:block; clear:both; }
+.paintingColorSelectWrap__Inner__ImgBox{ float:left; }
+.paintingColorSelectWrap__Inner__ContentBox{ float:left; margin-left:10px; }
+.paintingColorSelectWrap__Inner__ContentBox__colorPicker{ margin-bottom:10px; }
+.paintingColorSelectWrap__Inner__ContentBox__colorPicker span{ width:244px; display:inline-block; font-size:14px; font-weight:bold; color:#333; padding:18px 0 18px 23px; vertical-align:middle; }
+.paintingColorSelectWrap__Inner__ContentBox__colorPicker span.colorPicker01{ background:rgb(193,176,167) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.paintingColorSelectWrap__Inner__ContentBox__colorPicker span.colorPicker02{ background:rgb(229,218,209) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.paintingColorPalette-title{ background:#94417b; font-size:14px; color:#fff; font-weight:bold; padding:26px 0; text-align:center; position:relative; }
+.btn_part05_more{ position:absolute; right:16px; top:21px; }
+#paintingColorSelectWrap-type01 .buttonCenterWrap { margin-top:100px; }
+#paintingColorSelectWrap-type01 .buttonCenterWrap a{ text-decoration:none; margin-right:7px; }
+
+
+#paintingColorSelectWrap-type02{ display:none; width:824px; height:528px; background:#fff; position:absolute; padding:50px; left:50%; top:50%; z-index:15; margin:-314px 0 0 -462px; }
+#paintingColorSelectWrap-type02 .btn-popupClose{ position:absolute; right:20px; top:20px; }
 .paintingColorSelectWrap__Inner{ position:relative; }
 .paintingColorSelectWrap__Inner h1{ font-size:26px; color:#000; text-align:left; padding-bottom:13px; }
 .paintingColorSelectWrap__Inner p.concept-explain{ font-size:14px; color:#666; font-weight:bold; }
@@ -207,6 +232,12 @@ a.btn_colorPaletteArrowDown{ position:absolute; right:0; bottom:0; }
 .btn_part05_more{ position:absolute; right:16px; top:21px; }
 .paintingColorPalette-content{ border:2px solid #ccc; border-top:none; height:254px; position:relative; }
 .paintingColorPalette-content:after{ content:''; display:block; clear:both; }
-.paintingColorPalette{ text-align:center; }
+.paintingColorPalette{ width:352px; text-align:left; }
+.paintingColorPalette-content-Inner{ width:303px; }
+.paintingColorPalette span{ width:16px; height:16px; display:inline-block; margin:1px 0 0 1px; }
+.paintingColorPalette span.colorPaletteInner_colorCheep01{ background:rgb(239, 236, 234); }
+.paintingColorPalette span.colorPaletteInner_colorCheep02{ background:rgb(240, 237, 225); }
+.paintingColorPalette span.colorPaletteInner_colorCheep03{ background:rgb(239, 239, 223); }
+.paintingColorPalette span.colorPaletteInner_colorCheep04{ background:rgb(241, 229, 190); }
 a.btn_part05_ArrowUp{ display:block; position:absolute; right:0; top:0; }
 a.btn_part05_ArrowDown{ display:block; position:absolute; right:0; bottom:0; }
