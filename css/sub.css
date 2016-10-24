@@ -172,6 +172,15 @@ a.btn_part05_slideNext{ display:block; position:absolute; right:0; top:205px; }
 .layerInputFloorPlanFile-inputWrap span{ font-size:13px; color:#bbb; margin:10px 0 0 11px; display:block; }
 #layerInputFloorPlanFile .btn-popupClose{ position:absolute; right:-23px; top:-10px; }
 
+#layerInputPlacePickture{ display:none; width:544px; height:590px; background:#fff; position:absolute; left:50%; top:50%; z-index:10; padding:30px 43px 30px 25px; margin:-302px 0 0 -306px; }
+.layerInputPlacePickture-Inner{ position:relative; }
+.layerInputPlacePickture-Inner h1{ font-size:22px; color:#000; text-align:center; padding-bottom:20px; margin-bottom:20px; }
+.layerInputPlacePickture-inputWrap{ margin-bottom:25px; }
+.layerInputPlacePickture-inputWrap input[type="text"]{ width:420px; height:13px; background:#f1f1f1; border:none; padding:15px 0 16px 21px; font-size:15px; color:#bbb; }
+.layerInputPlacePickture-inputWrap a{ display:inline-block; background:#acacac; font-size:14px; color:#fff; padding:14px 25px; vertical-align:middle; text-decoration:none; }
+.layerInputPlacePickture-inputWrap span{ font-size:13px; color:#bbb; margin:10px 0 0 11px; display:block; }
+#layerInputPlacePickture .btn-popupClose{ position:absolute; right:-23px; top:-10px; }
+
 #pantoneColorPalette{ display:none; width:907px; height:427px; background:#fff; position:absolute; left:50%; top:50%; z-index:10; margin:-214px 0 0 -436px; }
 .pantoneColorPalette-Inner{ position:relative; }
 .pantoneColorPalette-Inner h1{ font-size:14px; color:#fff; background:#94417b; text-align:center; padding:27px 0 26px; }
