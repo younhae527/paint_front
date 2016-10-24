@@ -1,6 +1,11 @@
 function SellAdd(op){
     var wraper = op.wraper;
     var clickFlag = 0;
+    var addItemBtn = op.additemList.find(">div");
+
+    var itemDomText = '<div class="part04-container-inner__contentBox__takeArea-content"><div class="part04-container-inner__contentBox__takeArea-content-title"></div><div class="part04-container-inner__contentBox__takeArea-content-numbering"><a href="javascript:;" class="minus"><img src="../img/sub/ico_part04_minus.png" alt="" /></a><span class="cntBox">4</span></span><a href="javascript:;" class="plus"><img src="../img/sub/ico_part04_plus.png" alt="" /></a><a href="javascript:;" class="part04-delButton"><img src="../img/sub/btn_part04_delete.gif" alt="»èÁ¦" /></a></div></div>';
+
+
 
 
 
@@ -16,7 +21,27 @@ function SellAdd(op){
         delectBtn.off( "click", delectSell ).on( "click", delectSell );
         plusBtn.off("click", plusCnt ).on("click", plusCnt );
         minusBtn.off("click", minusCnt ).on("click", minusCnt );
+        addItemBtn.off("click", addItems ).on("click", addItems );
 
+    }
+
+    function addItems( e ){
+        e.preventDefault();
+        if( clickFlag ) return;
+        clickFlag = 1;
+        var currentBtn = $(e.currentTarget);
+        var roomName = currentBtn.data("room");
+        var itemDom = $(itemDomText);
+
+        itemDom.find(".part04-container-inner__contentBox__takeArea-content-title").text(roomName);
+
+
+        wraper.append(itemDom);
+
+        init();
+        setTimeout(function(){
+            clickFlag = 0;
+        },100)
     }
 
     function delectSell( e ){
