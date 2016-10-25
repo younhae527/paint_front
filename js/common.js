@@ -19,9 +19,28 @@ $(function(){
         $('#pantoneColorPalette').css('display','block');
         $('#dim').css('display','block');
     });
+    $('.part-container-wrap .btn-InputAreaPaper').click(function() {
+        $('#layerInputFloorPlanFile').css('display','block');
+        $('#dim').css('display','block');
+    });
+    $('.part-container-wrap .btn-InputPicture').click(function() {
+        $('#layerInputPlacePickture').css('display','block');
+        $('#dim').css('display','block');
+    });
+    $('.part-container-wrap .paintingColorSelectWrap__slideImg .colorPicker').click(function() {
+        $('#paintingColorSelectWrap-type01').css('display','block');
+        $('#dim').css('display','block');
+    });
+    $('.btn-areaPictureview').click(function() {
+        $('#areaPictureWrap').css('display','block');
+        $('#dim').css('display','block');
+    });
     $('.btn-popupClose').click(function() {
         $('#layerSpecific').css('display','none');
         $('#layerInputFloorPlanFile').css('display','none');
+        $('#layerInputPlacePickture').css('display','none');
+        $('#paintingColorSelectWrap-type01').css('display','none');
+        $('#areaPictureWrap').css('display','none');
         $('#dim').css('display','none');
     });
     $('.btn-popupCloseW').click(function() {
@@ -34,6 +53,7 @@ $(function(){
 $(document).ready(function(){
     $('.customSelect').customSelect();
     $('.customSelect01').customSelect();
+    $('.customSelect02').customSelect();
 });
 
 /* Pretty Checkable */
