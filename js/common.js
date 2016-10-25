@@ -11,10 +11,6 @@ $(function(){
         $('#layerSpecific').css('display','block');
         $('#dim').css('display','block');
     });
-    $('.part-container-wrap .sendEmail').click(function() {
-        $('#layerInputFloorPlanFile').css('display','block');
-        $('#dim').css('display','block');
-    });
     $('.part-container-wrap .btn_change').click(function() {
         $('#pantoneColorPalette').css('display','block');
         $('#dim').css('display','block');
@@ -35,12 +31,17 @@ $(function(){
         $('#areaPictureWrap').css('display','block');
         $('#dim').css('display','block');
     });
+    $('.btn-sendEmail').click(function() {
+        $('#sendEmailWrap').css('display','block');
+        $('#dim').css('display','block');
+    });
     $('.btn-popupClose').click(function() {
         $('#layerSpecific').css('display','none');
         $('#layerInputFloorPlanFile').css('display','none');
         $('#layerInputPlacePickture').css('display','none');
         $('#paintingColorSelectWrap-type01').css('display','none');
         $('#areaPictureWrap').css('display','none');
+        $('#sendEmailWrap').css('display','none');
         $('#dim').css('display','none');
     });
     $('.btn-popupCloseW').click(function() {
