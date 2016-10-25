@@ -268,9 +268,43 @@ a.btn_colorPaletteArrowDown{ position:absolute; right:0; bottom:0; }
 a.btn_part05_ArrowUp{ display:block; position:absolute; right:0; top:0; }
 a.btn_part05_ArrowDown{ display:block; position:absolute; right:0; bottom:0; }
 
+.part05-container-inner__contentBox__takeArea-addArea{ background:#fff; border:2px solid #ccc; padding:13px 0 13px 20px; font-size:16px; color:#aaa; position:relative; }
+.part05-container-inner__contentBox__takeArea-addArea.addSell-component1{ border-top:none; }
+.part05-container-inner__contentBox__takeArea-addArea .btn-addColor{ position:absolute; right:10px; top:10px; display:block; }
+
 #areaPictureWrap{ display:none; width:483px; height:1020px; background:#fff; position:absolute; padding:50px; left:50%; top:50%; z-index:15; margin:-310px 0 0 -292px; }
 #areaPictureWrap .btn-popupClose{ position:absolute; right:20px; top:20px; }
 #areaPictureWrap h1{ font-size:26px; color:#000; text-align:center; padding-bottom:13px; }
 .areaPictureWrap__Inner{ height:943px; margin-top:34px; overflow-y:auto; }
 .areaPictureWrap__Inner-img01{ text-align:center; }
 .areaPictureWrap__Inner-img02, .areaPictureWrap__Inner-img03{ text-align:center; margin-top:20px; }
+
+#sendEmailWrap{ display:block; width:838px; height:1420px; background:#fff; position:absolute; padding:50px; left:50%; top:50%; z-index:15; margin:-410px 0 0 -419px; }
+#sendEmailWrap .btn-popupClose{ position:absolute; right:20px; top:20px; }
+#sendEmailWrap h1{ font-size:26px; color:#000; text-align:center; padding-bottom:13px; }
+.sendEmailWrap__Inner{ width:724px; height:1283px; margin:34px auto 0 auto; }
+.sendEmailWrap__Inner ul:after{ content:''; display:block; clear:both; }
+.sendEmailWrap__Inner ul li{ float:left; margin-right:5px; }
+.sendEmailWrap__Inner ul li.sendEmailWrap__Inner-img03{ margin-right:0; }
+.sendEmailWrap__Inner__Explain{ margin:25px 0 49px; }
+.sendEmailWrap__Inner__Explain h2{ font-size:20px; color:#000; }
+.sendEmailWrap__Inner__Explain p{ font-size:14px; color:#666; margin-top:10px; line-height:23px; }
+.sendEmailWrap__Inner__AreaPaper{ border:1px solid #ccc; border-top:2px solid #000; }
+.sendEmailWrap__Inner__AreaSelectColorWrap{ margin-top:50px; }
+.sendEmailWrap__Inner__AreaSelectColorWrap:after{ content:''; display:block; clear:both; }
+.sendEmailWrap__Inner__AreaSelectColor{ width:241px; float:left; }
+.sendEmailWrap__Inner__AreaSelectColor01-color, .sendEmailWrap__Inner__AreaSelectColor02-color, .sendEmailWrap__Inner__AreaSelectColor03-color{ display:block; font-size:14px; color:#333; background:url('../img/sub/common/ico_bar.gif') 10px center no-repeat; padding:15px 0 15px 23px; }
+.sendEmailWrap__Inner__AreaSelectColor01-color01{ background:rgb(193, 176, 167) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor01-color02{ background:rgb(229, 218, 209) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor01-color03{ background:rgb(193, 176, 167) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor01-color04{ background:rgb(229, 218, 209) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor02-color01{ background:rgb(114, 136, 156) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor02-color02{ background:rgb(174, 188, 197) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor02-color03{ background:rgb(114, 136, 156) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor02-color04{ background:rgb(174, 188, 197) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor03-color01{ background:rgb(149, 145, 139) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor03-color02{ background:rgb(223, 220, 216) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor03-color03{ background:rgb(149, 145, 139) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner__AreaSelectColor03-color04{ background:rgb(223, 220, 216) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
+.sendEmailWrap__Inner .buttonCenterWrap{ margin-top:30px; }
+.sendEmailWrap__Inner .buttonCenterWrap .btn_Gray03{ margin-right:7px; }
