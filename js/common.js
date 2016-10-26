@@ -1,10 +1,12 @@
 /* Part01_Img Hover */
-$(function(){
-    $('.part-container-wrap ul li').click(function() {
-        $('.part-container-wrap ul li').children('.check-hover').css('display','none');
-        $(this).children('.check-hover').css('display','block');
-    });
-});
+//$(function(){
+//    $('.part-container-wrap ul li').click(function() {
+//        $('.part-container-wrap ul li').children('.check-hover').css('display','none');
+//        $(this).children('.check-hover').css('display','block');
+//    });
+//});
+
+
 
 $(function(){
     $('.btn_change').click(function() {
