@@ -7,6 +7,15 @@ $(function(){
 });
 
 $(function(){
+    $('.btn_change').click(function() {
+        $(this).siblings('.paintingColorPalette').css('display','block');
+    });
+    $('.btn-addColor').click(function() {
+        $(this).siblings('.paintingColorPalette').css('display','block');
+    });
+});
+
+$(function(){
     $('.part-container-wrap .popOpen-btn').click(function() {
         $('#layerSpecific').css('display','block');
         $('#dim').css('display','block');
@@ -49,6 +58,7 @@ $(function(){
         $('#dim').css('display','none');
     });
 });
+
 
 /* 커스텀셀렉트박스 */
 $(document).ready(function(){

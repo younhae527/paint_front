@@ -21,6 +21,7 @@
     <script src="../js/common.js" type="text/javascript"></script>
     <script src="../js/tab.js"></script>
     <script src="../js/sellAdd.js"></script>
+    <script src="../js/fileUproad.js"></script>
     <title>노루페인트</title>
 </head>
 <body>
@@ -28,41 +29,29 @@
     <div id="part-concept-Wrap">
         <div class="part-tab-wrap">
             <ul>
-                <li>
-                    <a href="javascript:;">
-                        <span>01</span>
-                        <span class="tabTitle">이미지 유형 선택</span>
-                    </a>
+                <li class="part-tab-wrap__list01">
+                    <span>01</span>
+                    <span class="tabTitle">이미지 유형 선택</span>
                 </li>
-                <li>
-                    <a href="javascript:;">
-                        <span>02</span>
-                        <span class="tabTitle">선호 이미지 선택</span>
-                    </a>
+                <li class="part-tab-wrap__list02">
+                    <span>02</span>
+                    <span class="tabTitle">선호 이미지 선택</span>
                 </li>
-                <li>
-                    <a href="javascript:;">
-                        <span>03</span>
-                        <span class="tabTitle">맞춤 컬러 컨셉 결과</span>
-                    </a>
+                <li class="part-tab-wrap__list03">
+                    <span>03</span>
+                    <span class="tabTitle">맞춤 컬러 컨셉 결과</span>
                 </li>
-                <li>
-                    <a href="javascript:;" class="on">
-                        <span>04</span>
-                        <span class="tabTitle">공간별 페인팅 면수 선택</span>
-                    </a>
+                <li class="part-tab-wrap__list04 on">
+                    <span>04</span>
+                    <span class="tabTitle">공간별 페인팅 면수 선택</span>
                 </li>
-                <li>
-                    <a href="javascript:;">
-                        <span>05</span>
-                        <span class="tabTitle">공간별 페인팅 컬러 선택</span>
-                    </a>
+                <li class="part-tab-wrap__list05">
+                    <span>05</span>
+                    <span class="tabTitle">공간별 페인팅 컬러 선택</span>
                 </li>
-                <li>
-                    <a href="javascript:;">
-                        <span>06</span>
-                        <span class="tabTitle">컬러 선택 확인</span>
-                    </a>
+                <li class="part-tab-wrap__list06">
+                    <span>06</span>
+                    <span class="tabTitle">컬러 선택 확인</span>
                 </li>
             </ul>
             <div class="part-tab-wrap__title-wrap">
@@ -95,7 +84,7 @@
                         <div class="part04-container-inner-wraper">
                             <!-- //part04-container-inner__contentBox__takeArea-title -->
                             <div class="part04-container-inner__contentBox__takeArea-content">
-                                <div class="part04-container-inner__contentBox__takeArea-content-title">방 1</div>
+                                <div class="part04-container-inner__contentBox__takeArea-content-title"><input type="text" value="방 1" /></div>
                                 <div class="part04-container-inner__contentBox__takeArea-content-numbering">
                                     <a href="javascript:;" class="minus"><img src="../img/sub/ico_part04_minus.png" alt="" /></a>
                                     <span class="cntBox">10</span>
@@ -112,11 +101,11 @@
                         </div>
 
                         <div class="addSell-component1 part04-container-inner__contentBox__takeArea-addArea" style="display: none;">
-                            <div data-room="안방"><a href="javascript:;">안방</a></div>
-                            <div data-room="자녀방"><a href="javascript:;">자녀방</a></div>
-                            <div data-room="주방"><a href="javascript:;">주방</a></div>
-                            <div data-room="거실"><a href="javascript:;">거실</a></div>
-                            <div data-room="드레스룸"><a href="javascript:;">드레스룸</a></div>
+                            <div data-room="방 1"><a href="javascript:;">방 1</a></div>
+                            <div data-room="방 2"><a href="javascript:;">방 2</a></div>
+                            <div data-room="방 3"><a href="javascript:;">방 3</a></div>
+                            <div data-room="방 4"><a href="javascript:;">방 4</a></div>
+                            <div data-room="방 5"><a href="javascript:;">방 5</a></div>
                         </div>
                         <!-- //part04-container-inner__contentBox__takeArea-addArea -->
                     </div>
@@ -220,27 +209,42 @@
             <a href="javascript:;" class="btn-popupClose"><img src="../img/sub/common/btn_popupClose.gif" alt="" /></a>
             <h1>공간 사진을 등록하세요.</h1>
             <div class="layerInputPlacePickture-inputWrap">
-                <input type="text" value="" placeholder="파일을 등록하세요." /><a href="javascript:;">찾아보기</a>
+                <div class="filebox filebox01">
+                    <input class="upload-name" value="파일선택" disabled="disabled"><label for="ex_filename">찾아보기</label>
+                    <input type="file" id="ex_filename" class="upload-hidden">
+                </div>
                 <span>*해당 파일 업로드는 jpg 파일만 등록 가능합니다.</span>
             </div>
             <!-- //layerInputPlacePickture-inputWrap -->
             <div class="layerInputPlacePickture-inputWrap">
-                <input type="text" value="" placeholder="파일을 등록하세요." /><a href="javascript:;">찾아보기</a>
+                <div class="filebox filebox02">
+                    <input class="upload-name" value="파일선택" disabled="disabled"><label for="ex_filename">찾아보기</label>
+                    <input type="file" id="ex_filename" class="upload-hidden">
+                </div>
                 <span>*해당 파일 업로드는 jpg 파일만 등록 가능합니다.</span>
             </div>
             <!-- //layerInputPlacePickture-inputWrap -->
             <div class="layerInputPlacePickture-inputWrap">
-                <input type="text" value="" placeholder="파일을 등록하세요." /><a href="javascript:;">찾아보기</a>
+                <div class="filebox filebox03">
+                    <input class="upload-name" value="파일선택" disabled="disabled"><label for="ex_filename">찾아보기</label>
+                    <input type="file" id="ex_filename" class="upload-hidden">
+                </div>
                 <span>*해당 파일 업로드는 jpg 파일만 등록 가능합니다.</span>
             </div>
             <!-- //layerInputPlacePickture-inputWrap -->
             <div class="layerInputPlacePickture-inputWrap">
-                <input type="text" value="" placeholder="파일을 등록하세요." /><a href="javascript:;">찾아보기</a>
+                <div class="filebox filebox04">
+                    <input class="upload-name" value="파일선택" disabled="disabled"><label for="ex_filename">찾아보기</label>
+                    <input type="file" id="ex_filename" class="upload-hidden">
+                </div>
                 <span>*해당 파일 업로드는 jpg 파일만 등록 가능합니다.</span>
             </div>
             <!-- //layerInputPlacePickture-inputWrap -->
             <div class="layerInputPlacePickture-inputWrap">
-                <input type="text" value="" placeholder="파일을 등록하세요." /><a href="javascript:;">찾아보기</a>
+                <div class="filebox filebox05">
+                    <input class="upload-name" value="파일선택" disabled="disabled"><label for="ex_filename">찾아보기</label>
+                    <input type="file" id="ex_filename" class="upload-hidden">
+                </div>
                 <span>*해당 파일 업로드는 jpg 파일만 등록 가능합니다.</span>
             </div>
             <!-- //layerInputPlacePickture-inputWrap -->
@@ -258,7 +262,10 @@
             <a href="javascript:;" class="btn-popupClose"><img src="../img/sub/common/btn_popupClose.gif" alt="" /></a>
             <h1>도면 파일을 등록하세요.</h1>
             <div class="layerInputFloorPlanFile-inputWrap">
-                <input type="text" value="" placeholder="파일을 등록하세요." /><a href="javascript:;">찾아보기</a>
+                <div class="filebox filebox06">
+                    <input class="upload-name" value="파일선택" disabled="disabled"><label for="ex_filename">찾아보기</label>
+                    <input type="file" id="ex_filename" class="upload-hidden">
+                </div>
                 <span>*해당 파일 업로드는 jpg 파일만 등록 가능합니다.</span>
             </div>
             <!-- //layerInputFloorPlanFile-inputWrap -->

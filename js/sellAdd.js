@@ -3,7 +3,7 @@ function SellAdd(op){
     var clickFlag = 0;
     var addItemBtn = op.additemList.find(">div");
 
-    var itemDomText = '<div class="part04-container-inner__contentBox__takeArea-content"><div class="part04-container-inner__contentBox__takeArea-content-title"></div><div class="part04-container-inner__contentBox__takeArea-content-numbering"><a href="javascript:;" class="minus"><img src="../img/sub/ico_part04_minus.png" alt="" /></a><span class="cntBox">4</span></span><a href="javascript:;" class="plus"><img src="../img/sub/ico_part04_plus.png" alt="" /></a><a href="javascript:;" class="part04-delButton"><img src="../img/sub/btn_part04_delete.gif" alt="»èÁ¦" /></a></div></div>';
+    var itemDomText = '<div class="part04-container-inner__contentBox__takeArea-content"><div class="part04-container-inner__contentBox__takeArea-content-title"></div><div class="part04-container-inner__contentBox__takeArea-content-numbering"><a href="javascript:;" class="minus"><img src="../img/sub/ico_part04_minus.png" alt="" /></a><span class="cntBox">4</span></span><a href="javascript:;" class="plus"><img src="../img/sub/ico_part04_plus.png" alt="" /></a><a href="javascript:;" class="part04-delButton"><img src="../img/sub/btn_part04_delete.gif" alt="ï¿½ï¿½ï¿½ï¿½" /></a></div></div>';
     var addBtn = op.addBtn;
 
 
@@ -93,7 +93,7 @@ function SellAdd(op){
         currentCnt -= 1;
         if( currentCnt < 0  ){
             currentCnt = 0;
-            alert("´õÀÌ»ó ³»¸±¼ö¾ø½À´Ï´Ù.");
+            alert("ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
         }
 
         currentCntBox.text( currentCnt );

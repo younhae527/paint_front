@@ -7,8 +7,9 @@
 .loginWrap__rightWrap__imgBox a{ display:inline-block; width:256px; }
 .loginWrap__rightWrap__loginBox{ background:#191919; padding:51px 73px 39px; }
 .loginWrap__rightWrap__loginBox__idBox, .loginWrap__rightWrap__loginBox__pwBox{ border-bottom:1px solid #8c8c8c; font-size:26px; color:#fff; font-weight:bold; padding:17px 0 10px; vertical-align:middle; }
-.loginWrap__rightWrap__loginBox__idBox input[type="text"] { margin-left:87px; }
-.loginWrap__rightWrap__loginBox__idBox input[type="text"], .loginWrap__rightWrap__loginBox__pwBox input[type="password"]{ width:230px; height:26px; background:#191919; margin-bottom:5px; border:none; font-size:16px; color:#fff; }
+.loginWrap__rightWrap__loginBox__idBox input[type="text"] { width:320px; }
+.loginWrap__rightWrap__loginBox__pwBox input[type="password"]{ width:230px; }
+.loginWrap__rightWrap__loginBox__idBox input[type="text"], .loginWrap__rightWrap__loginBox__pwBox input[type="password"]{ height:26px; background:#191919; margin-bottom:5px; border:none; font-size:16px; color:#fff; }
 .loginWrap__rightWrap__loginBox__btnBox{ margin-top:20px; }
 .loginWrap__rightWrap__loginBox__btnBox a.login{ display:block; text-align:center; font-size:18px; color:#fff; background:#3c3c3c; padding:20px 0 18px; margin-bottom:77px; text-decoration:none; }
 .loginWrap__rightWrap__loginBox__btnBox a.join, .loginWrap__rightWrap__loginBox__btnBox a.find_idpw{ display:inline-block; font-size:14px; color:#fff; margin-right:50px; }
