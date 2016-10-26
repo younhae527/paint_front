@@ -118,9 +118,9 @@ span.customSelect02{ width:82px; border:1px solid #38549d; font-size:14px; color
 
 ul.colorSelectConfirm-Inner{ margin:0 50px; }
 .colorPicker-wrap{ overflow-y:scroll; height:107px; }
-.colorPicker-Inner{ width:295px; }
+.colorPicker-Inner{ width:287px; }
 .colorPicker-Inner01{ margin-bottom:3px; }
-.colorPicker-Inner span{ width:187px; display:inline-block; font-size:14px; font-weight:bold; color:#333; padding:18px 0 18px 23px; vertical-align:middle; }
+.colorPicker-Inner span{ width:179px; display:inline-block; font-size:14px; font-weight:bold; color:#333; padding:18px 0 18px 23px; vertical-align:middle; }
 .colorPicker-Inner span.colorPicker01{ background:rgb(193,176,167) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
 .colorPicker-Inner span.colorPicker02{ background:rgb(229,218,209) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
 .colorPicker-Inner span.colorPicker03{ background:rgb(114,136,156) url('../img/sub/common/ico_bar.gif') 10px center no-repeat; }
