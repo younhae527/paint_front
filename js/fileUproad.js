@@ -1,22 +1,54 @@
 $(document).ready(function(){
-  var fileTarget01 = $('.filebox01 .upload-hidden');
-  var fileTarget02 = $('.filebox02 .upload-hidden');
-  var fileTarget03 = $('.filebox03 .upload-hidden');
-  var fileTarget04 = $('.filebox04 .upload-hidden');
-  var fileTarget05 = $('.filebox05 .upload-hidden');
-  var fileTarget06 = $('.filebox06 .upload-hidden');
+  var input6 = new InputFile({
+        ele : $('.input1'),
+        designInputbox : ".inpuBox"
+    });
 
-  fileTarget01.on('change', function(){  // 값이 변경되면
-    if(window.FileReader){  // modern browser
-      var filename = $(this)[0].files[0].name;
-    }
-    else {  // old IE
-      var filename = $(this).val().split('/').pop().split('\\').pop();  // 파일명만 추출
-    }
+    var input2 = new InputFile({
+        ele : $('.input2'),
+        designInputbox : ".inpuBox"
+    });
 
-    // 추출한 파일명 삽입
-    $(this).siblings('.upload-name').val(filename);
-  });
+    var input3 = new InputFile({
+        ele : $('.input3'),
+        designInputbox : ".inpuBox"
+    });
+
+    var input4 = new InputFile({
+        ele : $('.input4'),
+        designInputbox : ".inpuBox"
+    });
+
+    var input5 = new InputFile({
+        ele : $('.input5'),
+        designInputbox : ".inpuBox"
+    });
+
+    var input6 = new InputFile({
+        ele : $('.input6'),
+        designInputbox : ".inpuBox"
+    });
+
+    function InputFile(opt){
+        var ele = opt.ele;
+        var input = ele.next();
+        var designInputbox = ele.find(opt.designInputbox);
+
+
+        ele.on("click", fileOn);
+        input.on("change", getFileText);
+
+
+        function fileOn(e){
+            input.trigger("click")
+
+        }
+
+        function getFileText(e){
+            designInputbox.html(input.val())
+        }
+
+    }
 });
 
 

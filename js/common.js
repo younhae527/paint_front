@@ -4,6 +4,10 @@ $(function(){
         $('.part02-imgSelect-list li').children('.check-hover').css('display','none');
         $(this).children('.check-hover').css('display','block');
     });
+    $('.part02-imgSelect-sumnail li').click(function() {
+        $('.part02-imgSelect-sumnail li').children('.check-hover').css('display','none');
+        $(this).children('.check-hover').css('display','block');
+    });
 });
 
 

@@ -200,13 +200,10 @@ a.btn_part05_slideNext{ display:block; position:absolute; right:0; top:205px; }
 .layerInputFloorPlanFile-Inner{ position:relative; }
 .layerInputFloorPlanFile-Inner h1{ font-size:22px; color:#000; text-align:center; padding-bottom:20px; margin-bottom:20px; }
 .layerInputFloorPlanFile-inputWrap{ margin-bottom:25px; }
-.layerInputFloorPlanFile-inputWrap input[type="text"]{ width:420px; height:13px; background:#f1f1f1; border:none; padding:15px 0 16px 21px; font-size:15px; color:#bbb; }
-.layerInputFloorPlanFile-inputWrap a{ display:inline-block; background:#acacac; font-size:14px; color:#fff; padding:14px 25px; vertical-align:middle; text-decoration:none; }
-
-.filebox input[type="file"] { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
-.filebox label { display:inline-block; padding:14px 25px; color:#fff; font-size:14px; line-height:normal; vertical-align:middle; background:#acacac; cursor:pointer; }
-/* named upload */
-.filebox .upload-name { width:391px; display:inline-block; padding:15px 25px;  /* label의 패딩값과 일치 */  font-size:14px; color:#bbb; font-family:inherit; line-height:normal; vertical-align:middle; background-color:#f1f1f1; border:none; -webkit-appearance: none; /* 네이티브 외형 감추기 */ -moz-appearance: none; appearance: none; }
+.layerInputFloorPlanFile-inputWrap .filebox{ overflow:hidden; }
+.layerInputFloorPlanFile-inputWrap .inpuBox{ width:406px; display:inline-block; margin-top:0; vertical-align:middle; height:13px; background:#f1f1f1; border:none; padding:16px 0 17px 21px; font-size:15px; color:#bbb; }
+.layerInputFloorPlanFile-inputWrap button{ display:inline-block; background:#acacac; font-size:14px; color:#fff; padding:14px 25px; vertical-align:middle; text-decoration:none; }
+.layerInputFloorPlanFile-inputWrap input[type="file"]{ position:absolute; top:-99999px; left:-999999px; }
 
 .layerInputFloorPlanFile-inputWrap span{ font-size:13px; color:#bbb; margin:10px 0 0 11px; display:block; }
 #layerInputFloorPlanFile .btn-popupClose{ position:absolute; right:-23px; top:-10px; }
@@ -215,8 +212,11 @@ a.btn_part05_slideNext{ display:block; position:absolute; right:0; top:205px; }
 .layerInputPlacePickture-Inner{ position:relative; }
 .layerInputPlacePickture-Inner h1{ font-size:22px; color:#000; text-align:center; padding-bottom:20px; margin-bottom:20px; }
 .layerInputPlacePickture-inputWrap{ margin-bottom:25px; }
-.layerInputPlacePickture-inputWrap input[type="text"]{ width:420px; height:13px; background:#f1f1f1; border:none; padding:15px 0 16px 21px; font-size:15px; color:#bbb; }
-.layerInputPlacePickture-inputWrap a{ display:inline-block; background:#acacac; font-size:14px; color:#fff; padding:14px 25px; vertical-align:middle; text-decoration:none; }
+.layerInputPlacePickture-inputWrap .filebox{ overflow:hidden; }
+.layerInputPlacePickture-inputWrap .inpuBox{ width:406px; display:inline-block; margin-top:0; vertical-align:middle; height:13px; background:#f1f1f1; border:none; padding:16px 0 17px 21px; font-size:15px; color:#bbb; }
+.layerInputPlacePickture-inputWrap button{ display:inline-block; background:#acacac; font-size:14px; color:#fff; padding:14px 25px; vertical-align:middle; text-decoration:none; }
+.layerInputPlacePickture-inputWrap input[type="file"]{ position:absolute; top:-99999px; left:-999999px; }
+
 .layerInputPlacePickture-inputWrap span{ font-size:13px; color:#bbb; margin:10px 0 0 11px; display:block; }
 #layerInputPlacePickture .btn-popupClose{ position:absolute; right:-23px; top:-10px; }
 

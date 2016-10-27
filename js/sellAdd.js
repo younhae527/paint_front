@@ -3,7 +3,7 @@ function SellAdd(op){
     var clickFlag = 0;
     var addItemBtn = op.additemList.find(">div");
 
-    var itemDomText = '<div class="part04-container-inner__contentBox__takeArea-content"><div class="part04-container-inner__contentBox__takeArea-content-title"></div><div class="part04-container-inner__contentBox__takeArea-content-numbering"><a href="javascript:;" class="minus"><img src="../img/sub/ico_part04_minus.png" alt="" /></a><span class="cntBox">4</span></span><a href="javascript:;" class="plus"><img src="../img/sub/ico_part04_plus.png" alt="" /></a><a href="javascript:;" class="part04-delButton"><img src="../img/sub/btn_part04_delete.gif" alt="����" /></a></div></div>';
+    var itemDomText = '<div class="part04-container-inner__contentBox__takeArea-content"><div class="part04-container-inner__contentBox__takeArea-content-title"><input type="text" value="" /></div><div class="part04-container-inner__contentBox__takeArea-content-numbering"><a href="javascript:;" class="minus"><img src="../img/sub/ico_part04_minus.png" alt="" /></a><span class="cntBox">4</span></span><a href="javascript:;" class="plus"><img src="../img/sub/ico_part04_plus.png" alt="" /></a><a href="javascript:;" class="part04-delButton"><img src="../img/sub/btn_part04_delete.gif" alt="����" /></a></div></div>';
     var addBtn = op.addBtn;
 
 
@@ -40,7 +40,7 @@ function SellAdd(op){
         var roomName = currentBtn.data("room");
         var itemDom = $(itemDomText);
 
-        itemDom.find(".part04-container-inner__contentBox__takeArea-content-title").text(roomName);
+        itemDom.find(".part04-container-inner__contentBox__takeArea-content-title input").val(roomName);
 
 
         wraper.append(itemDom);
@@ -74,6 +74,10 @@ function SellAdd(op){
         var currentCntBox = currentBtn.parent().find(".cntBox");
         var currentCnt = currentCntBox.text()*1;
         currentCnt += 1;
+        if( currentCnt > 4  ){
+            currentCnt = 4;
+        }
+
 
         currentCntBox.text( currentCnt );
 
