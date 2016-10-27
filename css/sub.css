@@ -82,7 +82,7 @@ span.customSelect02{ width:82px; border:1px solid #38549d; font-size:14px; color
 .part-tab-wrap ul:after{ content:''; display:block; clear:both; }
 .part-tab-wrap ul li{ width:144px; float:left; margin-right:10px; border-bottom:2px solid #acacac; font-size:19px; color:#acacac; padding:18px 0 5px; }
 .part-tab-wrap ul li a{ display:block;   text-decoration:none; }
-.part-tab-wrap ul li:hover, .part-tab-wrap ul li.on{ background:#f23636; border-bottom:2px solid #f23636; color:#fff; }
+.part-tab-wrap ul li.on{ background:#f23636; border-bottom:2px solid #f23636; color:#fff; }
 .part-tab-wrap ul li span{ display:block; }
 .part-tab-wrap ul li span.tabTitle{ font-size:14px; padding-top:2px; display:block; }
 .part-tab-wrap__title-wrap{ margin-top:55px; position:relative; }

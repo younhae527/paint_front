@@ -19,6 +19,9 @@ $(function(){
     $('.btn-addColor').click(function() {
         $(this).siblings('.paintingColorPalette').css('display','block');
     });
+    $('.btn_part05_more').click(function() {
+       $('.paintingColorPalette').css('display','none');
+   });
 });
 
 $(function(){
