@@ -135,7 +135,7 @@ a.btnDown{ position:absolute; right:0; bottom:0; }
 .part-tab-wrap__title-wrap .buttonWrap a.part04-tabButton:hover, .part-tab-wrap__title-wrap .buttonWrap a.part04-tabButton.on{ color:#38549d; border:3px solid #38549d; text-decoration:none; }
 .part04-container-Inner{ margin:0 50px; }
 .part04-container-Inner:after{ content:''; display:block; clear:both; }
-.part04-container-Inner__ImgBox{ width:612px; border:2px solid #ccc; float:left; }
+.part04-container-Inner__ImgBox{ width:612px; height:513px; border:2px solid #ccc; float:left; }
 .part04-container-inner__contentBox{ width:298px; margin-left:10px; float:left; }
 .part04-container-inner__contentBox .buttonCenterWrap{ margin-top:30px; }
 .part04-container-inner__contentBox .buttonCenterWrap a{ text-decoration:none; }
