@@ -67,23 +67,23 @@
         <!-- //part-tab-wrap -->
         <div class="part-container-wrap">
             <ul class="part02-imgSelect-list">
-                <li>
+                <li class="img-type-check">
                     <a href="javascript:;"><img src="../img/sub/part02_img01.gif" alt="" /></a>
                     <div class="check-hover"><img src="../img/sub/part02_selectImg.png" alt="" /></div>
                 </li>
-                <li>
+                <li class="img-type-check">
                     <a href="javascript:;"><img src="../img/sub/part02_img02.gif" alt="" /></a>
                     <div class="check-hover"><img src="../img/sub/part02_selectImg.png" alt="" /></div>
                 </li>
-                <li class="mar-rightNone">
+                <li class="mar-rightNone img-type-check">
                     <a href="javascript:;"><img src="../img/sub/part02_img03.gif" alt="" /></a>
                     <div class="check-hover"><img src="../img/sub/part02_selectImg.png" alt="" /></div>
                 </li>
-                <li>
+                <li class="img-type-check">
                     <a href="javascript:;"><img src="../img/sub/part02_img04.gif" alt="" /></a>
                     <div class="check-hover"><img src="../img/sub/part02_selectImg.png" alt="" /></div>
                 </li>
-                <li>
+                <li class="img-type-check">
                     <a href="javascript:;"><img src="../img/sub/part02_img05.gif" alt="" /></a>
                     <div class="check-hover"><img src="../img/sub/part02_selectImg.png" alt="" /></div>
                 </li>
@@ -92,31 +92,31 @@
                 <div class="part-container-wrap__sumnailImg-wrap__link"><a href="javascript:;" class="btn_sumnail_Prev"><img src="../img/sub/btn_sumnailImg_Prev.gif" alt="" /></a></div>
                 <div class="part-container-wrap__sumnailImg-wrap__rolling_area">
                     <ul class="part-container-wrap__sumnailImg-wrap__rolling_area__roll_wraper part02-imgSelect-sumnail">
-                        <li>
+                        <li class="img-type-check">
                             <a href="javascript:;"><img src="../img/sub/part02_sumImg01.gif" alt="" /></a>
                             <div class="check-hover"><img src="../img/sub/part02_sumSelectImg.png" alt="" /></div>
                         </li>
-                        <li>
+                        <li class="img-type-check">
                             <a href="javascript:;"><img src="../img/sub/part02_sumImg02.gif" alt="" /></a>
                             <div class="check-hover"><img src="../img/sub/part02_sumSelectImg.png" alt="" /></div>
                         </li>
-                        <li>
+                        <li class="img-type-check">
                             <a href="javascript:;"><img src="../img/sub/part02_sumImg03.gif" alt="" /></a>
                             <div class="check-hover"><img src="../img/sub/part02_sumSelectImg.png" alt="" /></div>
                         </li>
-                        <li>
+                        <li class="img-type-check">
                             <a href="javascript:;"><img src="../img/sub/part02_sumImg04.gif" alt="" /></a>
                             <div class="check-hover"><img src="../img/sub/part02_sumSelectImg.png" alt="" /></div>
                         </li>
-                        <li>
+                        <li class="img-type-check">
                             <a href="javascript:;"><img src="../img/sub/part02_sumImg05.gif" alt="" /></a>
                             <div class="check-hover"><img src="../img/sub/part02_sumSelectImg.png" alt="" /></div>
                         </li>
-                        <li>
+                        <li class="img-type-check">
                             <a href="javascript:;"><img src="../img/sub/part02_sumImg01.gif" alt="" /></a>
                             <div class="check-hover"><img src="../img/sub/part02_sumSelectImg.png" alt="" /></div>
                         </li>
-                        <li>
+                        <li class="img-type-check">
                             <a href="javascript:;"><img src="../img/sub/part02_sumImg02.gif" alt="" /></a>
                             <div class="check-hover"><img src="../img/sub/part02_sumSelectImg.png" alt="" /></div>
                         </li>
@@ -138,7 +138,29 @@
             ele: $(".part-container-wrap__sumnailImg-wrap__rolling_area__roll_wraper"),
             btn: $(".part-container-wrap__sumnailImg-wrap__link"),
             defaultListCount: 5
-        })
+        });
+
+        var clickflag = 0;
+
+        $('.img-type-check').toggle(
+                function(){
+                    if( clickflag ) return;
+                    clickflag = 1;
+                    $(this).find(".check-hover").show();
+
+                    setTimeout(function(){
+                        clickflag = 0;
+                    },100)
+                },
+                function(){
+                    if( clickflag ) return;
+                    clickflag = 1;
+                    $(this).find(".check-hover").hide();
+                    setTimeout(function(){
+                        clickflag = 0;
+                    },100)
+                }
+        )
     }
 </script>
 </body>

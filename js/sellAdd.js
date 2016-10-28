@@ -5,7 +5,7 @@ function SellAdd(op){
 
     var itemDomText = '<div class="part04-container-inner__contentBox__takeArea-content"><div class="part04-container-inner__contentBox__takeArea-content-title"><input type="text" value="" /></div><div class="part04-container-inner__contentBox__takeArea-content-numbering"><a href="javascript:;" class="minus"><img src="../img/sub/ico_part04_minus.png" alt="" /></a><span class="cntBox">4</span></span><a href="javascript:;" class="plus"><img src="../img/sub/ico_part04_plus.png" alt="" /></a><a href="javascript:;" class="part04-delButton"><img src="../img/sub/btn_part04_delete.gif" alt="����" /></a></div></div>';
     var addBtn = op.addBtn;
-
+    var roomCont = 2;
 
 
 
@@ -14,8 +14,6 @@ function SellAdd(op){
         var delectBtn = items.find(op.delectBtn + ">img");
         var plusBtn = items.find(".plus");
         var minusBtn = items.find(".minus");
-
-
 
 
         delectBtn.off( "click", delectSell ).on( "click", delectSell );
@@ -28,26 +26,20 @@ function SellAdd(op){
 
     function itemlistOn(e){
         e.preventDefault();
-        console.log( itemlistOn )
-        op.additemList.show();
+        addItems()
     }
 
-    function addItems( e ){
-        e.preventDefault();
+    function addItems( ){
         if( clickFlag ) return;
         clickFlag = 1;
-        var currentBtn = $(e.currentTarget);
-        var roomName = currentBtn.data("room");
+
         var itemDom = $(itemDomText);
-
-        itemDom.find(".part04-container-inner__contentBox__takeArea-content-title input").val(roomName);
-
-
+        itemDom.find(".part04-container-inner__contentBox__takeArea-content-title input").val("방"+roomCont);
         wraper.append(itemDom);
 
         init();
 
-        op.additemList.hide();
+        roomCont++;
         setTimeout(function(){
             clickFlag = 0;
         },100)
